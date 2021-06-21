@@ -1,6 +1,6 @@
 {
   "task": {
-    "name": "Honeycomb Task",
+    "name": "Movement Task",
     "end": "This experiment has ended.",
     "recording_end": "Your recording has ended."
   },
@@ -18,9 +18,6 @@
     "large_window": "Please make this window as large as possible.",
     "message": "Instructions"
   },
-  "userid": {
-    "set": "Please enter participant ID."
-  },
   "eventMarker": {
     "found": "Note: event marker found.",
     "not_found": "Note: no event marker found."
@@ -30,9 +27,16 @@
     "message2": "Countdown for the second block"
   },
   "instructions": {
+    "moving_dot": "Try to relax and follow the dot on the screen as it moves. Try to relax your shoulders, don't clench your jaw, and try not to move. Movements affect the quality of the EEG recordings.",
+    "blink": "For this next section, start blinking when you hear a \"beep\", and stop when you hear another \"beep\".",
+    "close_eyes": "For this next section, close your eyes when you hear a \"beep\", and open when you hear another \"beep\". ",
+    "fixate": "For the remaining minute and a half, fixate on the dot in the middle of the screen and try to relax.",
+    "align_photodiode": "Make sure the photodiode is aligned and the EEG recording has begun before continuing.",
     "adjust_volume": "Set tablet volume to 50/100.",
     "camera": "Make sure the camera is pointing to you and your face is within the camera area."
   },
+  "blink": "Blink.",
+  "close": "Close your eyes.",
   "quiz": {
     "ask": {
       "age": "What's your age?",

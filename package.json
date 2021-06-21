@@ -1,6 +1,6 @@
 {
-  "name": "honeycomb",
-  "description": "all-in-one task starter app with jsPsych + React + Electron + psiturk ",
+  "name": "Task Movement",
+  "description": "movement task based on resting state task",
   "author": {
     "name": "Brown CCV",
     "email": "ccv-bot@brown.edu",
@@ -97,13 +97,6 @@
     "electron-devtools-installer": "^3.2.0",
     "electron-packager": "^14.0.6",
     "electron-rebuild": "^1.8.6",
-    "eslint": "^5.16.0",
-    "eslint-config-standard": "^14",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-node": "^9.2.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-react": "^7.14.3",
-    "eslint-plugin-standard": "^4.0.1",
     "firebase-cli": "^1.2.0",
     "firebase-tools": "^9.12.1",
     "require-context.macro": "^1.1.1"

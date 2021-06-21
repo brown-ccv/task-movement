@@ -13,7 +13,7 @@ const log = require('electron-log');
 const USE_EVENT_MARKER = (process.env.REACT_APP_USE_EVENT_MARKER === 'true')
 // Event Trigger
 const { eventCodes, vendorId, productId, comName } = require('./config/trigger')
-const { isPort, getPort, sendToPort } = require('event-marker')
+const { getPort, sendToPort } = require('event-marker')
 
 // Override product ID if environment variable set
 const activeProductId = process.env.EVENT_MARKER_PRODUCT_ID || productId

@@ -3,7 +3,7 @@
 // dataDir will be created on Desktop and used as root folder for saving data
 // data save format is ~/Desktop/<dataDir>/<participantID>/<date>/<filename>.json
 // it is also incrementally saved to the user's app data folder (logged to console)
-const dataDir = 'honeycomb-task-data'
+const dataDir = 'OCD-Project-Data'
 
 // this is module.exports isntead of just exports as it is also imported into the electron app
 module.exports = {
