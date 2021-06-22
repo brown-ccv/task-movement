@@ -1,5 +1,4 @@
 import { jsPsych } from 'jspsych-react'
-import requireContext from 'require-context.macro'
 
 const removeCursor = (elementId) => {
   let element = document.getElementById(elementId);
