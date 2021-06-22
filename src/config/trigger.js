@@ -7,11 +7,11 @@ const eventCodes = {
   up: 3,
   down: 4,
   center: 5,
-  blink: {
+  yawn: {
     start: 6,
     stop: 7,
   },
-  close: {
+  events: {
     start: 8,
     stop: 9,
   },

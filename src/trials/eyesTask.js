@@ -4,8 +4,11 @@ import { sleep, beep } from '../lib/taskUtils'
 import { eventCodes } from '../config/trigger'
 import { lang } from '../config/main'
 
-const eyesTask = (option) => {
+const eyesTask = (option, index) => {
   let stimulus = `<div id="dot-container"><h3>${lang[option]}</h3></div>` + photodiodeGhostBox()
+  if (index>=0) {
+    stimulus = `<div id="dot-container"><h3>${lang[option][index]}</h3></div>` + photodiodeGhostBox()
+  }
 
   return {
     'type': 'html_keyboard_response',

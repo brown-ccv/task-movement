@@ -27,16 +27,39 @@
     "message2": "Countdown for the second block"
   },
   "instructions": {
-    "moving_dot": "Try to relax and follow the dot on the screen as it moves. Try to relax your shoulders, don't clench your jaw, and try not to move. Movements affect the quality of the EEG recordings.",
-    "blink": "For this next section, start blinking when you hear a \"beep\", and stop when you hear another \"beep\".",
-    "close_eyes": "For this next section, close your eyes when you hear a \"beep\", and open when you hear another \"beep\". ",
+    "moving_dot": "Try to relax and follow the dot on the screen as it moves by moving your head . Try to relax your shoulders, don't clench your jaw, and try not to move. Movements affect the quality of the EEG recordings.",
+    "yawn": "For this next section, start yawning when you hear a \"beep\", and stop when you hear another \"beep\".",
+    "events": [
+      "For this next section, tap the INS when you hear a \"beep\", and open when you hear another \"beep\". ",
+      "For this next section, tap the lead extension when you hear a \"beep\", and open when you hear another \"beep\". ",
+      "For this next section, take a few deep breaths when you hear a \"beep\", and open when you hear another \"beep\". ",  
+      "For this next section, start chewing when you hear a \"beep\", and open when you hear another \"beep\". ",
+      "For this next section, cough a few times when you hear a \"beep\", and open when you hear another \"beep\". ",
+      "For this next section, swallow a few times when you hear a \"beep\", and open when you hear another \"beep\". ",
+      "For this next section, clench your jaw a few times when you hear a \"beep\", and open when you hear another \"beep\". ",
+      "For this next section, twist your body left then right a few times when you hear a \"beep\", and open when you hear another \"beep\". ",
+      "For this next section, extend your left arm to the side when you hear a \"beep\", and open when you hear another \"beep\". ",
+      "For this next section, extend your right arm to the side when you hear a \"beep\", and open when you hear another \"beep\". "
+      
+    ],
     "fixate": "For the remaining minute and a half, fixate on the dot in the middle of the screen and try to relax.",
     "align_photodiode": "Make sure the photodiode is aligned and the EEG recording has begun before continuing.",
     "adjust_volume": "Set tablet volume to 50/100.",
     "camera": "Make sure the camera is pointing to you and your face is within the camera area."
   },
-  "blink": "Blink.",
-  "close": "Close your eyes.",
+  "yawn": "Yawn.",
+  "events": [
+    "Tap the INS.",
+    "Tap the lead extension.",
+    "Take a few deep breaths",
+    "Start chewing.",
+    "Cough a few times.",
+    "Swallow a few times.",
+    "Clench your jaw a few times.",
+    "Twist your body left then right a few times.",
+    "Extend your left arm to the side.",
+    "Extend your right arm to the side."
+  ],
   "quiz": {
     "ask": {
       "age": "What's your age?",

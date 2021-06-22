@@ -59,14 +59,13 @@ html, body, #root, .App{
 }
 
 .jspsych-btn {
-  margin-top: -4rem;
   padding: 0.5rem 1rem;
   font-weight: bold;
   border-radius: 5px;
   background-color: #d3d3d3;
   margin: 1rem;
+  width: 10rem !important;
 }
-
 
 #empty-container {
   margin: auto;

@@ -1,5 +1,4 @@
 // utilities specific to this app/task
-import $ from 'jquery'
 import _ from 'lodash'
 
 // initialize starting conditions for each trial within a block
@@ -13,8 +12,9 @@ const generateStartingOpts = (blockSettings) => {
 }
 
 const moveDot = (position) => {
-	const p = $("#fixation-container");
-	p.attr('class', `move-${position}`);
+	//const p = $("#fixation-container");
+	const p = document.getElementById("fixation-container")
+	p.setAttribute('class', `move-${position}`);
   }
 
 const beep = () => {
