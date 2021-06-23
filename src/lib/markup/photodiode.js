@@ -1,6 +1,5 @@
 import { config } from  '../../config/main'
 import { eventCodes } from '../../config/trigger'
-import $ from 'jquery'
 
 // conditionally load electron and psiturk based on MTURK config variable
 let ipcRenderer = false;
@@ -21,9 +20,9 @@ const photodiodeGhostBox = () => {
 
 const pdSpotEncode = (taskCode) => {
   function pulse_for(ms, callback) {
-      $('.photodiode-spot').css({"background-color": "white"})
+      document.getElementById('photodiode-spot').setAttribute("style", "background-color: white")
       setTimeout(() => {
-        $('.photodiode-spot').css({"background-color": "black"})
+        document.getElementById('photodiode-spot').setAttribute("style", "background-color: black")
         callback()
       }, ms)
     }

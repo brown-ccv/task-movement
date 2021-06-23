@@ -3,7 +3,6 @@ import { pdSpotEncode, photodiodeGhostBox } from '../lib/markup/photodiode'
 import { moveDot, sleep } from '../lib/taskUtils'
 import { removeCursor } from '../lib/utils'
 import { eventCodes } from '../config/trigger'
-import $ from 'jquery'
 
 const moveBlock = async(duration, position, start, eventCodes, data) => {
   const rt = () => Date.now() - start
@@ -45,14 +44,14 @@ const movingDot = (direction) => {
 
       // add stimulus to the DOM
       document.getElementById('jspsych-content').innerHTML = stimulus
-      let container = $(".jspsych-content-wrapper");
-      container.attr('class', 'fixation-container');
+      let container = document.getElementsByClassName("jspsych-content-wrapper")[0];
+      container.setAttribute('class', 'fixation-container');
       moveThree(direction, data, start, eventCodes)
       let timeOut = (direction === 'down') ? 17000 : 15100
       setTimeout(
          () => done({direction: direction, code: eventCodes[direction], start: start, data: data}),
          timeOut)
-      container.attr('class', 'jspsych-content-wrapper')
+      container.setAttribute('class', 'jspsych-content-wrapper')
     }
   }
 }
