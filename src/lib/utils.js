@@ -1,5 +1,14 @@
 import { jsPsych } from 'jspsych-react'
-import requireContext from 'require-context.macro'
+
+const removeCursor = (elementId) => {
+  let element = document.getElementById(elementId);
+  element.classList.add("nocursor");
+}
+
+const addCursor = (elementId) => {
+  let element = document.getElementById(elementId);
+  element.classList.remove("nocursor");
+}
 
 const sleep = (ms) => {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -51,13 +60,6 @@ const startKeypressListener = () => {
   return keyboardListener
 }
 
-// import images
-const importAll = (r) => {
-  return r.keys().map(r);
-}
-
-const images = importAll(requireContext('../assets/images', false, /\.(png|jpe?g|svg)$/));
-
 const getTurkUniqueId = () => {
   const turkInfo = jsPsych.turk.turkInfo()
   const uniqueId = `${turkInfo.workerId}:${turkInfo.assignmentId}`
@@ -95,6 +97,8 @@ const beep = (audioCodes) => {
 
 
 export {
+  removeCursor,
+  addCursor,
   sleep,
   jitter,
   jitter50,
@@ -102,7 +106,6 @@ export {
   deepCopy,
   formatDollars,
   generateWaitSet,
-  images,
   startKeypressListener,
   getProlificId,
   getTurkUniqueId,
