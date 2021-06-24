@@ -1,11 +1,11 @@
 # Movement Task
 
 
-[![Actions Status](https://github.com/brown-ccv/task-msit/workflows/Test%2C%20Build%2C%20and%20Package/badge.svg)](https://github.com/brown-ccv/task-msit/actions)
-[![Actions Status](https://github.com/brown-ccv/task-msit/workflows/Build%20at%20home%20version%20%28Windows%29/badge.svg)](https://github.com/brown-ccv/task-msit/actions)  
+[![Actions Status](https://github.com/brown-ccv/task-movement/workflows/Test%2C%20Build%2C%20and%20Package/badge.svg)](https://github.com/brown-ccv/task-movement/actions)
+[![Actions Status](https://github.com/brown-ccv/task-movement/workflows/Build%20at%20home%20version%20%28Windows%29/badge.svg)](https://github.com/brown-ccv/task-movement/actions)  
 
 
-This repo contains the Movement task. It is a [jspsych](https://www.jspsych.org/) task built with React and Electron. This task uses the [Honeycomb](https://github.com/brown-ccv/honeycomb).
+This repo contains the Movement task. It is a [jspsych](https://www.jspsych.org/) task built with React and Electron. This task uses the [Honeycomb](https://github.com/brown-ccv/honeycomb) template.
 
 ## Getting Started
 
@@ -15,7 +15,7 @@ git clone https://github.com/brown-ccv/task-movement.git
 ```
 2. Change directory into the new folder
 ```
-cd task-<TASK NAME>
+cd task-movement
 ```
 3. Install the dependencies
 ```

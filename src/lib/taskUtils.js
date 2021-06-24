@@ -12,7 +12,6 @@ const generateStartingOpts = (blockSettings) => {
 }
 
 const moveDot = (position) => {
-	//const p = $("#fixation-container");
 	const p = document.getElementById("fixation-container")
 	p.setAttribute('class', `move-${position}`);
   }
