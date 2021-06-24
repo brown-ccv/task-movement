@@ -270,10 +270,6 @@ process.on('uncaughtException', (error) => {
 // Some APIs can only be used after this event occurs.
 app.on('ready', () => {
   createWindow()
-  if (USE_EVENT_MARKER) {
-    setUpPort()
-    .then(() => handleEventSend(eventCodes.test_connect))
-  }
 })
 // Quit when all windows are closed.
 app.on('window-all-closed', function () {
