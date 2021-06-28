@@ -7,7 +7,7 @@ const path = require('path')
 const url = require('url')
 const ipc = require('electron').ipcMain
 const _ = require('lodash')
-const fs = require('fs')
+const fs = require('fs-extra')
 const log = require('electron-log');
 
 // Define default environment variables
