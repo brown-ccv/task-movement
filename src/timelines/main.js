@@ -25,14 +25,14 @@ for (let i = 0; i < lang.instructions.events.length; i++) {
   primaryTimeline.push(instructions(lang.instructions.events[i]));
   primaryTimeline.push(eyesTask('events',i))
 }
-primaryTimeline.push(showMessage(config, {
-  duration: 5000,
-  message: lang.task.end,
-}))
 if (config.USE_CAMERA) {
   primaryTimeline.splice(1,0,cameraStart())
   primaryTimeline.push(cameraEnd(5000))
 }
+primaryTimeline.push(showMessage(config, {
+  duration: 5000,
+  message: lang.task.end,
+}))
 
 const mturkTimeline = [
   preamble,
