@@ -17,8 +17,6 @@ import { version } from "../package.json"
 function App() {
   // Variables for time
   const startDate = new Date().toISOString();
-  // Current app version
-  console.log(version)
   // Variables for login
   const [loggedIn, setLogin] = useState(false);
   const [ipcRenderer, setRenderer] = useState(false);
