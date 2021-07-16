@@ -27,7 +27,7 @@
     "message2": "Countdown for the second block"
   },
   "instructions": {
-    "moving_dot": "Try to relax and follow the dot on the screen as it moves by moving your head . Try to relax your shoulders, don't clench your jaw, and try not to move. Movements affect the quality of the EEG recordings.",
+    "moving_dot": "Try to relax and follow the dot on the screen as it moves by moving your head . Try to relax your shoulders, don't clench your jaw, and try not to move other parts of your body. Movements affect the quality of the EEG recordings.",
     "yawn": "For this next section, start yawning when you hear a \"beep\", and stop when you hear another \"beep\".",
     "events": [
       "For this next section, tap the INS when you hear a \"beep\", and stop when you hear another \"beep\". ",
